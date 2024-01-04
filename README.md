@@ -1,2 +1,2 @@
 # rockpaperscissors
-Simple JavaScript Rock Paper Scissors program written inside a script tag in html
+Simple JavaScript Rock Paper Scissors program with no front end. Console ineractions only.
