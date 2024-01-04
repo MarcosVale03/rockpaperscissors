@@ -26,37 +26,37 @@ function playRound(playerSelection, computerSelection) {
 
     if (playerSelection === computerSelection) {
         console.log("It's a tie!!!");
-        return 0
+        return 0;
     }
 
     else if (playerSelection === 'paper' && computerSelection === 'rock') {
         console.log("You win! Paper beats Rock.");
-        return 1
+        return 1;
     }
 
     else if (playerSelection === 'paper' && computerSelection === 'scissors') {
         console.log("You lose! Scissors beats Paper.");
-        return 2
+        return 2;
     }
 
     else if (playerSelection === 'rock' && computerSelection === 'scissors') {
         console.log("You win! Rock beats Scissors.");
-        return 1
+        return 1;
     }
 
     else if (playerSelection === 'rock' && computerSelection === 'paper') {
         console.log("You lose! Paper beats Rock.");
-        return 2
+        return 2;
     }
 
     else if (playerSelection === 'scissors' && computerSelection === 'rock') {
         console.log("You lose! Rock beats Scissors");
-        return 2
+        return 2;
     }
 
     else if (playerSelection === 'scissors' && computerSelection === 'paper') {
         console.log("You win! Scissors beats Paper.");
-        return 1
+        return 1;
     }
 }
 
@@ -65,7 +65,7 @@ function game() {
     let playerScore = 0;
     let compScore = 0;
 
-    console.log("Let's play a little game of Rock Paper Scissors!")
+    console.log("Let's play a little game of Rock Paper Scissors!");
 
     for (let i = 0; i < 5; i++) {
 
@@ -96,9 +96,9 @@ function game() {
     }
 
     else {
-        console.log("It's a tie!")
+        console.log("It's a tie!");
     }
 
 }
 
-game()
+game();
