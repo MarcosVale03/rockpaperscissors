@@ -1,0 +1,16 @@
+.page {
+  background-color: rgb(8, 8, 54);
+  color: white;
+  text-align: center;
+}
+
+.results {
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
